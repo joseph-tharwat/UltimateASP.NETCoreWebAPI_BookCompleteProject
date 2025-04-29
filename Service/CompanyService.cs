@@ -1,5 +1,6 @@
 ﻿using Contracts.IRepositoy;
 using Contracts.Logger;
+using Entities.Exceptions;
 using Service.Contract;
 using Shared.DTOs;
 using System;
@@ -24,18 +25,19 @@ namespace Service
         public List<CompanyDto> GetCompanies()
         {
             _logger.LogDebuge("Get Companies");
-            try
-            {
-                return _repository.Company.GetCompanies().Select(c => new CompanyDto(
-                c.Id, c.Name,
+
+            var companies =  _repository.Company.GetCompanies().Select(c => new CompanyDto(
+                c.Name,
                 c.Address + ", " + c.Country
                 )).ToList();
-            }
-            catch (Exception ex)
+
+            if(companies.Count == 0)
             {
-                _logger.LogInfo("Error getting the companies"+ ex.Message);
-                throw;
+                _logger.LogInfo("Get Companies: Company not found");
+                throw new CompanyNotFoundException();
             }
+
+            return companies;
         }
     }
 }

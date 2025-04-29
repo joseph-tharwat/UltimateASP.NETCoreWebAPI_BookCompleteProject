@@ -9,6 +9,9 @@ using NLog;
 using Contracts.Logger;
 using CompanyEmployees.Extentions;
 using Contracts.IRepositoy;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
+using Entities.Exceptions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -44,6 +47,8 @@ if (app.Environment.IsDevelopment())
 
 // app.useAuthentication()
 app.UseAuthorization();//useAuthentication also be default
+
+app.UseCustomExceptionHandler();
 
 app.MapControllers();
 

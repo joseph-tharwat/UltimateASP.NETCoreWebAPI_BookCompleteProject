@@ -3,8 +3,45 @@
   "WorkspaceRootPath": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40A57E6B-579E-490C-B33C-458D4CEF607D}|..\\Service\\Service.csproj|d:\\programe_project\\dotnet\\apibookexample\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E39117-3147-4380-B559-B0F53CA193C9}|..\\Shared\\Shared.csproj|d:\\programe_project\\dotnet\\apibookexample\\shared\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees\\extentions\\appmiddlewareextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|solutionrelative:extentions\\appmiddlewareextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7E6154-7582-4315-BA8C-456AAC194E92}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees\\extentions\\custommapextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|solutionrelative:extentions\\custommapextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees\\extentions\\addjwtauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|solutionrelative:extentions\\addjwtauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees\\extentions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7719BB48-92A9-34D7-D61A-F4CDBBD3F757}|CompanyEmployees.csproj|solutionrelative:extentions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F445787-334F-4747-878D-4952D2C0B84F}|..\\Entities\\Entities.csproj|d:\\programe_project\\dotnet\\apibookexample\\entities\\exceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F445787-334F-4747-878D-4952D2C0B84F}|..\\Entities\\Entities.csproj|d:\\programe_project\\dotnet\\apibookexample\\entities\\exceptions\\companynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F445787-334F-4747-878D-4952D2C0B84F}|..\\Entities\\Entities.csproj|d:\\programe_project\\dotnet\\apibookexample\\entities\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7E6154-7582-4315-BA8C-456AAC194E92}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\programe_project\\dotnet\\apibookexample\\companyemployees.presentation\\companyemployees.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +51,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Shared\\DTOs\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DTOs\\CompanyDto.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Shared\\DTOs\\CompanyDto.cs",
+              "RelativeToolTip": "..\\Shared\\DTOs\\CompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:28:45.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppMiddlewareExtentions.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\AppMiddlewareExtentions.cs",
+              "RelativeDocumentMoniker": "Extentions\\AppMiddlewareExtentions.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\AppMiddlewareExtentions.cs",
+              "RelativeToolTip": "Extentions\\AppMiddlewareExtentions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:13:00.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceExtentions.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\ServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Extentions\\ServiceExtentions.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\ServiceExtentions.cs",
+              "RelativeToolTip": "Extentions\\ServiceExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:12:18.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T00:23:32.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CompanyService.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Service\\CompanyService.cs",
+              "RelativeToolTip": "..\\Service\\CompanyService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:04:59.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:23:56.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddJwtAuthentication.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\AddJwtAuthentication.cs",
+              "RelativeDocumentMoniker": "Extentions\\AddJwtAuthentication.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\AddJwtAuthentication.cs",
+              "RelativeToolTip": "Extentions\\AddJwtAuthentication.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:19:07.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomMapExtention.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\CustomMapExtention.cs",
+              "RelativeDocumentMoniker": "Extentions\\CustomMapExtention.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees\\Extentions\\CustomMapExtention.cs",
+              "RelativeToolTip": "Extentions\\CustomMapExtention.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:19:17.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeNotFoundException.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\EmployeeNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:11:24.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyNotFoundException.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:02:39.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyEmployees.Presentation",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T21:23:51.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\EntityNotFoundException.cs",
+              "ToolTip": "D:\\Programe_Project\\dotNet\\ApiBookExample\\Entities\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\EntityNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:03:34.718Z",
               "EditorCaption": ""
             }
           ]

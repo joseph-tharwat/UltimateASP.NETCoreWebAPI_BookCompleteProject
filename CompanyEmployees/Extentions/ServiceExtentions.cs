@@ -9,7 +9,7 @@ using LoggerService;
 
 namespace CompanyEmployees.Extentions
 {
-    public static  class ServiceExtensions
+    public static  class ServiceExtentions
     {
         public static void configureLoggerService(this IServiceCollection services)
         {
