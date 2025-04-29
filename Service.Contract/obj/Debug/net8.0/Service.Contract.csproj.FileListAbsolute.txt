@@ -1,0 +1,16 @@
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\bin\Debug\net8.0\Service.Contract.deps.json
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\bin\Debug\net8.0\Service.Contract.dll
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\bin\Debug\net8.0\Service.Contract.pdb
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\bin\Debug\net8.0\Shared.dll
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\bin\Debug\net8.0\Shared.pdb
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.csproj.AssemblyReference.cache
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.AssemblyInfoInputs.cache
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.AssemblyInfo.cs
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.csproj.CoreCompileInputs.cache
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.sourcelink.json
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service..3FD92DE9.Up2Date
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.dll
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\refint\Service.Contract.dll
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\Service.Contract.pdb
+D:\Programe_Project\dotNet\ApiBookExample\Service.Contract\obj\Debug\net8.0\ref\Service.Contract.dll
