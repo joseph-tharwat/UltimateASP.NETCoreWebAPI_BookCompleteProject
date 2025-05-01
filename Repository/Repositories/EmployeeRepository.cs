@@ -14,5 +14,15 @@ namespace Repository.Repositories
         {
             
         }
+
+        public Employee GetEmployee(Guid id, bool trackChanges)
+        {
+            return FindByCondition(e => e.Id == id, trackChanges).FirstOrDefault();
+        }
+
+        public void CreateEmployee(Employee employee)
+        {
+            Create(employee);
+        }
     }
 }

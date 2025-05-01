@@ -392,3 +392,5 @@ D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\obj\Debug\net8.0\refi
 D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.pdb
 D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.genruntimeconfig.cache
 D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\obj\Debug\net8.0\ref\CompanyEmployees.dll
+D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\bin\Debug\net8.0\AutoMapper.dll
+D:\Programe_Project\dotNet\ApiBookExample\CompanyEmployees\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,4 +1,5 @@
-﻿using Contracts.IRepositoy;
+﻿using AutoMapper;
+using Contracts.IRepositoy;
 using Contracts.Logger;
 using Service.Contract;
 using Shared.DTOs;
@@ -15,10 +16,10 @@ namespace Service
         private readonly Lazy<IEmployeeService> _employeeService;
         private readonly Lazy<ICompanyService>  _companyService;
 
-        public ServiceManager(IRepositoryManager repositoryManager, ILoggerService loggerService)
+        public ServiceManager(IRepositoryManager repositoryManager, ILoggerService loggerService, IMapper mapper)
         {
-            _employeeService = new Lazy<IEmployeeService>(()=> new EmployeeService(repositoryManager,loggerService));
-            _companyService = new Lazy<ICompanyService>(()=> new CompanyService(repositoryManager,loggerService));
+            _employeeService = new Lazy<IEmployeeService>(()=> new EmployeeService(repositoryManager,loggerService, mapper));
+            _companyService = new Lazy<ICompanyService>(()=> new CompanyService(repositoryManager,loggerService, mapper));
         }
 
         public IEmployeeService EmployeeService => _employeeService.Value;

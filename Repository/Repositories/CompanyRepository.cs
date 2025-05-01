@@ -19,5 +19,21 @@ namespace Repository.Repositories
         {
             return FindAll(false).ToList();
         }
+
+        public void CreateCompany(Company company)
+        {
+            Create(company);
+        }
+
+        public List<Company> GetByIds(IEnumerable<Guid> ids)
+        {
+            return FindByCondition(c=> ids.Contains(c.Id), false).ToList();
+        }
+
+        public Company GetCompanyById(Guid id, bool trackChanges)
+        {
+            return FindByCondition(x => x.Id==id, false).FirstOrDefault();
+        }
+
     }
 }

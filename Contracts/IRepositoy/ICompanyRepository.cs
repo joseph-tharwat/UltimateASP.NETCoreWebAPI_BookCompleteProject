@@ -10,5 +10,10 @@ namespace Contracts.IRepositoy
     public interface ICompanyRepository
     {
         public List<Company> GetCompanies();
+        public Company GetCompanyById(Guid id, bool trackChanges);
+
+        public void CreateCompany(Company company);
+
+        public List<Company> GetByIds(IEnumerable<Guid> ids);
     }
 }
