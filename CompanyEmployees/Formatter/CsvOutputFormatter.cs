@@ -20,6 +20,16 @@ namespace CompanyEmployees.Formatter
                 CompanyDto company = (CompanyDto)context.Object;
                 await context.HttpContext.Response.WriteAsync(company.ToString());
             }
+            else if(context.Object is IEnumerable<CompanyDto>)
+            {
+                List<CompanyDto> company = (List<CompanyDto>)context.Object;
+                string companiesString="";
+                company.ForEach(c => 
+                {
+                    companiesString += c.ToString() + "\n";
+                });
+                await context.HttpContext.Response.WriteAsync(companiesString);
+            }
             else
             {
                 throw new BadHttpRequestException("type not supported");

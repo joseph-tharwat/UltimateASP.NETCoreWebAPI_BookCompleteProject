@@ -65,7 +65,7 @@ namespace Service
             {
                 throw new Exception("null company");
             }
-
+        
             Company companyEntity = _mapper.Map<Company>(companyForCreationDto);
         
             _repository.Company.CreateCompany(companyEntity);
