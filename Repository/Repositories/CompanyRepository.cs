@@ -35,5 +35,9 @@ namespace Repository.Repositories
             return FindByCondition(x => x.Id==id, false).FirstOrDefault();
         }
 
+        public void DeleteCompany(Company company)
+        {
+            Delete(company);
+        }
     }
 }

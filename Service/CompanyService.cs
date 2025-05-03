@@ -91,5 +91,24 @@ namespace Service
             CompanyDto companyDto = _mapper.Map<CompanyDto>(company);
             return companyDto;
         }
+
+        public void DeleteCompany(Guid companyId)
+        {
+            Company company = _repository.Company.GetCompanyById(companyId, true);
+            if(company==null)
+            {
+                throw new CompanyNotFoundException();
+            }
+
+            _repository.Company.DeleteCompany(company);
+            try
+            {
+                _repository.save();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("cant delete the company");
+            }
+        }
     }
 }

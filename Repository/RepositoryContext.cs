@@ -22,6 +22,12 @@ namespace Repository
         {
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+
+            modelBuilder.Entity<Employee>()
+                .HasOne(e=>e.Company)
+                .WithMany(c=>c.Employees)
+                .HasForeignKey(e=>e.CompanyId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

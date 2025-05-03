@@ -14,6 +14,7 @@ namespace Service.Contract
         public CompanyDto GetCompanyById(Guid id, bool trackChanges);
         public List<CompanyDto> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
 
+        public void DeleteCompany(Guid companyId);
 
     }
 }

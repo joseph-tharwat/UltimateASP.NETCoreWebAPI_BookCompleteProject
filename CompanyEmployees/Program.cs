@@ -46,6 +46,8 @@ builder.Services.AddJwtAuthentication();
 
 var app = builder.Build();
 
+app.UseCustomExceptionHandler();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -56,8 +58,6 @@ if (app.Environment.IsDevelopment())
 
 // app.useAuthentication()
 app.UseAuthorization();//useAuthentication also be default
-
-app.UseCustomExceptionHandler();
 
 app.MapControllers();
 

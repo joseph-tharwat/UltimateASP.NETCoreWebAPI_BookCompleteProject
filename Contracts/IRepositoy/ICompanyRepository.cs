@@ -15,5 +15,7 @@ namespace Contracts.IRepositoy
         public void CreateCompany(Company company);
 
         public List<Company> GetByIds(IEnumerable<Guid> ids);
+    
+        public void DeleteCompany(Company company);
     }
 }
