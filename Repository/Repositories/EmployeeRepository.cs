@@ -1,5 +1,6 @@
 ﻿using Contracts.IRepositoy;
 using Entities.Models;
+using Shared.RequestFeatures;
 using Shared.RequestParameters;
 using System;
 using System.Collections.Generic;
@@ -22,13 +23,10 @@ namespace Repository.Repositories
             return employee;
         }
 
-        public List<Employee> GetEmployees(Guid companyId, bool trackChanges, EmployeeParameters employeeParameters)
+        public PagedList<Employee> GetEmployees(Guid companyId, bool trackChanges, EmployeeParameters employeeParameters)
         {
-            List<Employee> employees = FindByCondition(e => e.CompanyId == companyId, trackChanges)
-                .Skip(employeeParameters.PageSize * (employeeParameters.PageNumber-1))
-                .Take(employeeParameters.PageSize)
-                .ToList();
-            return employees;
+            IEnumerable<Employee> employees = FindByCondition(e => e.CompanyId == companyId, trackChanges);
+            return PagedList<Employee>.ToPagedList(employees, employeeParameters.PageNumber, employeeParameters.PageSize);
         }
 
 

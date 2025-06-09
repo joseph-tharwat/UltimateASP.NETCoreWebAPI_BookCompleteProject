@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CompanyEmployees.Presentation.Controllers
@@ -29,8 +30,10 @@ namespace CompanyEmployees.Presentation.Controllers
         [HttpGet("GetEmployees")]
         public IActionResult GetEmployees(Guid CompanyId, [FromQuery] EmployeeParameters employeeParameters)
         {
-            var employeeDto = _services.EmployeeService.GetEmployees(CompanyId, false, employeeParameters);
-            return Ok(employeeDto);
+            var employeeDtoWithMetaData = _services.EmployeeService.GetEmployees(CompanyId, false, employeeParameters);
+            Response.Headers.Add("X-paging", JsonSerializer.Serialize(employeeDtoWithMetaData.metaData));
+
+            return Ok(employeeDtoWithMetaData.employees);
         }
 
     }

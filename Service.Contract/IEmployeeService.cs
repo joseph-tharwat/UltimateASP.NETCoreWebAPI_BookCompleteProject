@@ -1,4 +1,5 @@
 ﻿using Shared.DTOs;
+using Shared.RequestFeatures;
 using Shared.RequestParameters;
 
 namespace Service.Contract
@@ -7,6 +8,6 @@ namespace Service.Contract
     {
         public EmployeeDto GetEmployee(Guid id, bool trackChanges);
 
-        public List<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges, EmployeeParameters employeeParameters);
+        public (List<EmployeeDto> employees, MetaData metaData)  GetEmployees(Guid companyId, bool trackChanges, EmployeeParameters employeeParameters);
     }
 }
