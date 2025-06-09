@@ -3,6 +3,7 @@ using Contracts.IRepositoy;
 using Contracts.Logger;
 using Service.Contract;
 using Shared.DTOs;
+using Shared.RequestParameters;
 
 namespace Service
 {
@@ -27,6 +28,18 @@ namespace Service
 
             var employeeEntity = _repository.Employee.GetEmployee(id, trackChanges);
             var employeeDto = _mapper.Map<EmployeeDto>(employeeEntity);
+            return employeeDto;
+        }
+
+        public List<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges, EmployeeParameters employeeParameters)
+        {
+            if (companyId == null)
+                throw new ArgumentNullException("company id");
+
+            _logger.LogInfo("GetEmployees: " + companyId.ToString());
+
+            var employeeEntities = _repository.Employee.GetEmployees(companyId, trackChanges, employeeParameters);
+            var employeeDto = _mapper.Map<List<EmployeeDto>>(employeeEntities);
             return employeeDto;
         }
     }
