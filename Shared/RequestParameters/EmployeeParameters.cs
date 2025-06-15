@@ -11,5 +11,10 @@ namespace Shared.RequestParameters
         public string searchTerm { get; set; }
         public int minAge { get; set; }
         public int maxAge { get; set; }
+
+        public bool isValidAgeRange()
+        {
+            return minAge <= maxAge;
+        }
     }
 }

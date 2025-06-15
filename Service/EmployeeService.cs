@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Contracts.IRepositoy;
 using Contracts.Logger;
+using Entities.Exceptions;
 using Service.Contract;
 using Shared.DTOs;
 using Shared.RequestFeatures;
@@ -37,6 +38,10 @@ namespace Service
             if (companyId == null)
                 throw new ArgumentNullException("company id");
 
+            if(!employeeParameters.isValidAgeRange())
+            {
+                throw new InvalidAgeRangeException();
+            }
             _logger.LogInfo("GetEmployees: " + companyId.ToString());
 
             var employeePagedList = _repository.Employee.GetEmployees(companyId, trackChanges, employeeParameters);
