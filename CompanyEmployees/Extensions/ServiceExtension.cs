@@ -7,9 +7,9 @@ using Service;
 using Contracts.Logger;
 using LoggerService;
 
-namespace CompanyEmployees.Extentions
+namespace CompanyEmployees.Extension
 {
-    public static  class ServiceExtentions
+    public static  class ServiceExtension
     {
         public static void configureLoggerService(this IServiceCollection services)
         {

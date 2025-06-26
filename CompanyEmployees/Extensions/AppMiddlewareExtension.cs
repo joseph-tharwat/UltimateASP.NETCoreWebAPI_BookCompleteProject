@@ -1,7 +1,7 @@
 ﻿using Entities.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
 
-namespace CompanyEmployees.Extentions
+namespace CompanyEmployees.Extension
 {
     public static class AppMiddlewareExtentions
     {
